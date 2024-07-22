@@ -1,0 +1,67 @@
+/*
+Navy Blue
+#05445E
+Blue Grotto
+#189AB4
+Blue Green
+#75E6DA
+Baby Blue
+#D4F1F4
+*/
+
+body{
+    background-color: white
+}
+#maintitle{
+    font-size: 3rem;
+    text-align: center;
+    color: #189AB4;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.anfangsbuttons{
+    font-size: 2rem;
+    border-radius: 7px;
+    border: 1px black 1;
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+    background-color: #189AB4;
+    color: #D4F1F4;
+}
+
+#buttons{
+    display: flex;
+    text-align: center; 
+}
+
+#clock{
+    text-align: center;
+    color: #189AB4;
+    font-size: 5rem;
+    transition: opacity 1.0s ease-in-out;
+}
+
+.einhüll-divs{
+    text-align: center;
+    color: #189AB4;
+}
+
+#spiel-div{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+#spiel-div > div {
+    background-color: #05445E;
+    margin: 5px;
+    border-radius: 30%;
+    padding: 10px;
+    transition: opacity 0.25s ease-in-out;
+}
+
